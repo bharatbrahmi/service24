@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Tech Installations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #0d6efd;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0d6efd;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .cta a {
+      background: #0d6efd;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      .services {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Home Tech Installations</h1>
+  <p>Fast, reliable TV & internet cabling services</p>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">📡 TV Antenna Installation</div>
+    <div class="card">📺 Additional TV Antenna Outlets</div>
+    <div class="card">🌐 NBN Wall Outlet Installation</div>
+    <div class="card">🔌 NBN Outlet Relocation</div>
+    <div class="card">🧵 Data Cable Installation (Ethernet)</div>
+    <div class="card">🏠 Home Network Setup</div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Choose Us?</h2>
+  <ul>
+    <li>✔ Affordable pricing</li>
+    <li>✔ Fast and reliable service</li>
+    <li>✔ Clean, professional installations</li>
+    <li>✔ Local and trusted</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Get a Quote</h2>
+  <p>Contact us today for a free quote or to book a service.</p>
+  <div class="cta">
+    <a href="tel:0400000000">📞 Call Now</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Home Tech Installations</p>
+</footer>
+
+</body>
+</html>
